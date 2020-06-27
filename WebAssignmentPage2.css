@@ -1,0 +1,117 @@
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+body{
+    width:100%;
+    height:100%;
+}
+.fnt{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 50px;
+}
+.red{
+    color: red;
+    transform: rotate(-25deg);
+}
+#d{
+    margin-left: 20px;
+    width: 700px;
+}
+#text{
+    
+    height: 40px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+.btn{
+    margin-top:-5px;
+    height:40px;
+}
+
+
+#reg{
+    margin-top: 15px;;
+    text-indent: 20em;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#reg a{
+    color: black;
+}
+#reg  :hover{
+    color: red;
+    text-decoration: none;
+}
+#pop{
+    color: red
+}
+
+.container-fluid
+{
+    flex-direction: column;
+}
+
+li{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+}
+.a{
+    color: white;
+}
+.a:hover{
+    color: white;
+    display: block;
+    background-color: red;
+
+}
+.dropdown-menu{
+    background-color: #212529;;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color : red;
+}
+@media only screen and (max-width: 600px) {
+    .cartIcon{
+        margin-left: 0px;
+    }
+    #reg{
+        margin-left: -300px;
+        
+    }
+    
+    .btn{
+        margin-left:0px;
+    }
+    #text{
+        margin-left:0px;
+    }
+    
+  }
+  
+.card-body{
+    text-align: center;
+
+}
+.card-body a{
+  color: black;
+  font-size: 14px;;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.card{
+    display: inline-block;
+    width: 16em;
+}
+.im{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}

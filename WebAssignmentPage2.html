@@ -1,0 +1,285 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <script src="https://kit.fontawesome.com/e3bfa404f5.js" crossorigin="anonymous"></script>
+        <script src ="index1.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./WebAssignmentPage2.css">
+
+    </head>
+    <body>
+      <script>
+        $(document).ready(function(){
+          $('#pop').popover();   
+        });
+      </script>
+        <div class="d-flex">
+            <label class="fnt">D</label>
+            <label class="red fnt">E</label>
+            <label class="fnt">C</label>
+            <label class="red fnt">O</label>
+            <label class="fnt">R</label>
+            <div id ="d">
+                <input type="search" id="text" placeholder="  Search"></input>
+            
+            <!--<i class="fas fa-search iconStyle"></i>-->
+            <button type="button" class="btn btn-dark buttn">Search</button>
+            </div>
+            
+            <div>
+                <label id="reg"><a href="#">Register</a></label>
+                <span class ="cartIcon">&nbsp;
+                  <a href="#">
+                    <i class="fa fa-shopping-cart" id="pop" aria-hidden="true" 
+                    data-toggle="popover" title="My Cart" 
+                    data-content="Cart is currently empty">
+                    
+                  </i>
+                  </a>
+                </span> 
+            </div>
+            
+        </div>
+        <br>
+       <nav class="navbar navbar-expand-sm bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle a" href="#"
+                      data-toggle="dropdown">
+                          Bedroom
+                      </a> 
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item a" href="WebAssignmentPage2.html#bed">Bed</a>
+                        <a class="dropdown-item a" href="WebAssignmentPage2.html#dressing">Dressing</a>
+                        <a class="dropdown-item a" href="WebAssignmentPage2.html#wardrobe">Wardrobe</a>
+                            
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle a" href="#" 
+                        data-toggle="dropdown">Living Room</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item a" href="WebAssignmentPage2.html#sofaTable">Sofa</a>
+                            <a class="dropdown-item a" href="WebAssignmentPage2.html#sofaTable">Table</a>
+                          </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle a" href="#" 
+                        data-toggle="dropdown">Dining</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item a" href="WebAssignmentPage2.html#dining">Dining Table</a>
+                          </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle a" href="#" 
+                        data-toggle="dropdown">Office</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item a" href="WebAssignmentPage2.html#chairs">Office Chairs</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+ 
+        <div class="container">
+          <br><br>
+          <h3 id="bed">Beds</h3>
+          <br>
+          <div class="card">
+            <div class="card-header"id="ch1">
+                <img class="image-fluid im" id="bd1" src="pictures/bed2.jpg"  onclick="getIdOfImg()">
+                Price: 40,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header"id="ch2">
+               <img class="image-fluid im" id="bd2" src="pictures/bed3.jpg" onclick="getIdOfImg()">
+               Price: 45,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch3">
+              <img class="image-fluid im" id="bd3" src="pictures/bed4.jpg" onclick="getIdOfImg()">
+              Price: 25,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch4">
+              <img class="image-fluid im" id="bd4" src="pictures/bed5.jpg" onclick="getIdOfImg()">
+              Price: 43,000
+            </div>
+          </div>
+
+          <!----------------------------------------------------------------------------------->
+
+          <br><br>
+          <h3 id="dressing">Dressing Tables</h3>
+          <br>
+          <div class="card">
+            <div class="card-header" id="ch5">
+              <img class="image-fluid im" id="d1" src="pictures/dressing.jpg" onclick="getIdOfImg()">
+              Price: 15,000 
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch6">
+              <img class="image-fluid im" id="d2" src="pictures/dressing1.jpeg" onclick="getIdOfImg()">
+              Price: 21,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch7">
+              <img class="image-fluid im" id="d3" src="pictures/dressing2.jpg" onclick="getIdOfImg()">
+              Price: 25,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch8">
+              <img class="image-fluid im" id="d4" src="pictures/dressing3.jpg" onclick="getIdOfImg()">
+              Price: 30,000
+            </div>
+          </div>
+          <br><br>
+
+          <!------------------------------------------------------------------------------------------->
+
+          <h3 id="wardrobe">Wardrobes</h3>
+          <br>
+          <div class="card">
+            <div class="card-header" id="ch9">
+              <img class="image-fluid im" id="w1" src="pictures/wardrobe.jpg" onclick="getIdOfImg()" >
+              Price: 25,000 
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch10">
+              <img class="image-fluid im" id="w2" src="pictures/wardrobe1.jpg" onclick="getIdOfImg()">
+              Price: 25,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch11">
+              <img class="image-fluid im" id="w3" src="pictures/wardrobe2.jpg" onclick="getIdOfImg()">
+              Price: 30,000
+            </div> 
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch12">
+              <img class="image-fluid im" id="w4" src="pictures/wardrobe3.jpg" onclick="getIdOfImg()">
+              Price: 17,000
+            </div>
+          </div>
+
+          <!------------------------------------------------------------------------------------------->
+          <br><br>
+          <h3 id="sofaTable">Sofa & Table</h3>
+          <br>
+          <div class="card">
+            <div class="card-header" id="ch13">
+              <img class="image-fluid im" id="st1" src="pictures/sofa.jpeg" onclick="getIdOfImg()" >
+              Price: 25,000 
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch14">
+              <img class="image-fluid im" id="st2" src="pictures/sofa1.jpg" onclick="getIdOfImg()">
+              Price: 25,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch15">
+              <img class="image-fluid im" id="st3" src="pictures/sofa2.jpg" onclick="getIdOfImg()">
+              Price: 30,000
+            </div> 
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch16">
+              <img class="image-fluid im" id="st4" src="pictures/sofa3.jpg" onclick="getIdOfImg()">
+              Price: 17,000
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="ch17">
+              <img class="image-fluid im" id="st5" src="pictures/table.jpeg" onclick="getIdOfImg()">
+              Price: 25,000
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch18">
+              <img class="image-fluid im" id="st6" src="pictures/table1.jpeg" onclick="getIdOfImg()">
+              Price: 30,000
+            </div> 
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="ch19">
+              <img class="image-fluid im" id="st7" src="pictures/table2.jpg" onclick="getIdOfImg()">
+              Price: 17,000
+            </div>
+          </div>
+
+           <!------------------------------------------------------------------------------------------->
+            <br><br>
+           <h3 id="dining">Dining Table</h3>
+           <br>
+           <div class="card">
+             <div class="card-header" id="ch20">
+               <img class="image-fluid im" id="dn1" src="pictures/dining1.jpg" onclick="getIdOfImg()" >
+               Price: 60,000 
+             </div>
+           </div>
+ 
+           <div class="card">
+             <div class="card-header" id="ch21">
+               <img class="image-fluid im" id="dn2" src="pictures/dining2.jpg" onclick="getIdOfImg()">
+               Price: 65,000
+             </div>
+           </div>
+
+           <!------------------------------------------------------------------------------------------->
+           <br><br>
+           <h3 id="chairs">Office Chairs</h3>
+           <br>
+           <div class="card">
+             <div class="card-header" id="ch22">
+               <img class="image-fluid im" id="c1" src="pictures/chair1.jpg" onclick="getIdOfImg()" >
+               Price: 25,000 
+             </div>
+           </div>
+ 
+           <div class="card">
+             <div class="card-header" id="ch23">
+               <img class="image-fluid im" id="c2" src="pictures/chair2.jpg" onclick="getIdOfImg()">
+               Price: 25,000
+             </div>
+           </div>
+
+           <div class="card">
+            <div class="card-header" id="ch24">
+              <img class="image-fluid im" id="c3" src="pictures/chair3.png" onclick="getIdOfImg()">
+              Price: 25,000
+            </div>
+          </div>
+
+        </div>
+
+    </body>
+</html>
