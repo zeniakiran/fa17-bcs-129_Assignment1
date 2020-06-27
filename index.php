@@ -1,1 +1,1 @@
-<? php include("./WebAssignmentMain.html")?>
+<?php include("./WebAssignmentMain.html")?>
